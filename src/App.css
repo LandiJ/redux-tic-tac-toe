@@ -1,0 +1,10 @@
+.block {
+  width: 30%;
+  height: 30vh;
+  border: 1px solid black;
+  font-size: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
