@@ -56,8 +56,20 @@ class GameDisplay extends Component {
       </div>
     ));
     return (
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
-        {list}
+      <div>
+        <h1
+          style={{
+            color: "tan",
+            textAlign: "center",
+            fontSize: 45,
+            fontFamily: "Sans-Serif"
+          }}
+        >
+          TIC-TAC-TOE! {" "}
+        </h1>
+        <div style={{ display: "flex", flexWrap: "wrap" }}>
+          {list}
+        </div>
       </div>
     );
   }
