@@ -62,7 +62,7 @@ class GameDisplay extends Component {
             color: "tan",
             textAlign: "center",
             fontSize: 45,
-            fontFamily: "Sans-Serif"
+            fontFamily: "Gill Sans"
           }}
         >
           TIC-TAC-TOE! {" "}
